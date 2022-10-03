@@ -61,8 +61,8 @@ while True:
     time_start = t.time()
     
     try:
-        # r, array = create_record(settings, time_now)
-        r = requests.get("https://google.com/")
+        r, array = create_record(settings, time_now)
+        # r = requests.get("https://google.com/")
     except:
         elapsed = round(t.time()-time_start, 2)
         time_stamp =datetime.now().strftime("[%Y-%m-%d %H:%M:%S]")
