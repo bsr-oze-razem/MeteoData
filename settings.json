@@ -1,0 +1,23 @@
+{
+    "login": "ecopowerinc_power",
+    "password": "KfE1cSM0h7",
+    "delay_s": 60,
+    "coordinates": {"latitude": {"start": 49.4, "end": 54.6}, "longitude": {"start": 14.3, "end": 23.7}},
+    "array": {"x": 3, "y": 3},
+    "ip" : "192.168.111.137",
+    "port" : "6969",
+
+    "data":
+        {"wind_speed_10m": 0,
+        "wind_dir_10m": 0,
+        "wind_gusts_10m_1h": 0,
+        "wind_gusts_10m_24h": 0,
+        "t_2m": 0,
+        "t_max_2m_24h": 0,
+        "t_min_2m_24h": 0,
+        "msl_pressure": 0,
+        "precip_1h": 0,
+        "precip_24h": 0},
+    
+    "data_names": ["wind_speed_10m:ms", "wind_dir_10m:d", "wind_gusts_10m_1h:ms", "wind_gusts_10m_24h:ms", "t_2m:C", "t_max_2m_24h:C", "t_min_2m_24h:C", "msl_pressure:hPa", "precip_1h:mm", "precip_24h:mm"]
+}
