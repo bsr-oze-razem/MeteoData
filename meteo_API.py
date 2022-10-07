@@ -1,5 +1,5 @@
 import requests, time as t, base64, json, numpy as np, struct
-from datetime import datetime
+from datetime import datetime, timedelta
 from colorama import Fore, init
 init()
 
@@ -57,7 +57,7 @@ with open("settings.json", "r") as f:
 
 
 while True:
-    time_now = datetime.now().strftime("%Y-%m-%dT%H:%M:%SZ")
+    time = (datetime.now() + timedelta(seconds=settings["time_offset"])).strftime("%Y-%m-%dT%H:%M:%SZ")
     time_start = t.time()
     
     try:

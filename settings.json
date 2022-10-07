@@ -2,6 +2,7 @@
     "login": "ecopowerinc_power",
     "password": "KfE1cSM0h7",
     "delay_s": 3600,
+    "time_offset": 21600,
     "coordinates": {"latitude": {"start": 49.4, "end": 54.6}, "longitude": {"start": 14.3, "end": 23.7}},
     "array": {"x": 5, "y": 4},
     "ip" : "192.168.111.137",
